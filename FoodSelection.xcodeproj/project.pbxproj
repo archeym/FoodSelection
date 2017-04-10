@@ -13,6 +13,8 @@
 		21D009D01E83A3BA0082C84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D009CE1E83A3BA0082C84A /* Main.storyboard */; };
 		21D009D21E83A3BA0082C84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D009D11E83A3BA0082C84A /* Assets.xcassets */; };
 		21D009D51E83A3BA0082C84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D009D31E83A3BA0082C84A /* LaunchScreen.storyboard */; };
+		21D009DE1E83A91F0082C84A /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D009DD1E83A91F0082C84A /* FoodCell.m */; };
+		21D009E41E83C1CB0082C84A /* DrinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D009E31E83C1CB0082C84A /* DrinkCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		21D009D11E83A3BA0082C84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D009D41E83A3BA0082C84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21D009D61E83A3BA0082C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D009DC1E83A91F0082C84A /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		21D009DD1E83A91F0082C84A /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		21D009E21E83C1CB0082C84A /* DrinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrinkCell.h; path = ../DrinkCell.h; sourceTree = "<group>"; };
+		21D009E31E83C1CB0082C84A /* DrinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrinkCell.m; path = ../DrinkCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				21D009CB1E83A3BA0082C84A /* ViewController.h */,
 				21D009CC1E83A3BA0082C84A /* ViewController.m */,
 				21D009CE1E83A3BA0082C84A /* Main.storyboard */,
+				21D009E21E83C1CB0082C84A /* DrinkCell.h */,
+				21D009E31E83C1CB0082C84A /* DrinkCell.m */,
+				21D009DC1E83A91F0082C84A /* FoodCell.h */,
+				21D009DD1E83A91F0082C84A /* FoodCell.m */,
 				21D009D11E83A3BA0082C84A /* Assets.xcassets */,
 				21D009D31E83A3BA0082C84A /* LaunchScreen.storyboard */,
 				21D009D61E83A3BA0082C84A /* Info.plist */,
@@ -151,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D009E41E83C1CB0082C84A /* DrinkCell.m in Sources */,
 				21D009CD1E83A3BA0082C84A /* ViewController.m in Sources */,
+				21D009DE1E83A91F0082C84A /* FoodCell.m in Sources */,
 				21D009CA1E83A3BA0082C84A /* AppDelegate.m in Sources */,
 				21D009C71E83A3BA0082C84A /* main.m in Sources */,
 			);
@@ -312,6 +324,7 @@
 				21D009DB1E83A3BA0082C84A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
